@@ -9,5 +9,5 @@ Homepage: http://www.openpanel.com/openapp/
 Package: openapp-half
 Architecture: all
 Pre-Depends: openapp-backup, openpanel-openapp-mod-user, openpanel-core, openpanel-api-sh, openpanel-mod-iptables
-Depends: openpanel-mod-networking, openpanel-mod-keepalived, openpanel-mod-pptpd
+Depends: openpanel-mod-networking, openpanel-mod-keepalived, openpanel-mod-pptpd, openpanel-openapp-mod-backup
 Description: This will turn your machine in a perfect High Available Loadbalancer and Firewall

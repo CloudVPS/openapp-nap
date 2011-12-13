@@ -1,0 +1,13 @@
+Source: openapp-half
+Section: web
+Priority: extra
+Maintainer: Mark Schouten <mark@tuxis.nl>
+Build-Depends: debhelper
+Standards-Version: 3.9.1
+Homepage: http://www.openpanel.com/openapp/
+
+Package: openapp-half
+Architecture: all
+Pre-Depends: openapp-backup, openpanel-openapp-mod-user, openpanel-core, openpanel-api-sh
+Depends: openpanel-mod-networking, openpanel-mod-keepalived, openpanel-mod-pptpd, openpanel-mod-iptables
+Description: This will turn your machine in a perfect High Available Loadbalancer and Firewall

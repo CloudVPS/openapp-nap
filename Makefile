@@ -4,7 +4,7 @@ OPM_SRC=${CURDIR}/openpanel-openapp-mod-nap
 
 build:
 	convert -modulate 50,100,100 ${OPM_SRC}/networking.png ${OPM_SRC}/down_networking.png
-	convert ${OPM_SRC}/wallpaper.png ${OPM_SOURCE}/wallpaper.jpg
+	convert ${OPM_SRC}/wallpaper.png ${OPM_SRC}/wallpaper.jpg
 
 install:
 	mkdir -p ${OPM_PREFIX}/var/openpanel/modules/OpenAppNap.module

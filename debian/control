@@ -2,7 +2,7 @@ Source: openapp-nap
 Section: web
 Priority: extra
 Maintainer: Mark Schouten <mark@tuxis.nl>
-Build-Depends: debhelper
+Build-Depends: debhelper, imagemagick
 Standards-Version: 3.9.1
 Homepage: http://www.openpanel.com/openapp/
 

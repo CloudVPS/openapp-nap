@@ -23,11 +23,8 @@ case "$1" in
             openapp-backup-enmod openpanel
             openapp-backup-enmod etc
 
-            # Opening up the firewall for Pptpd
-            /etc/init.d/openpanel restart
-            echo "configure firewall\ncreate port 1723 description=\"Tunnels (PPtPd)\" state=permit filter=tcp\nexit\nexit\n" | openpanel-cli > /dev/null
-
             # Enabling firewall
+            /etc/init.d/openpanel restart
             echo "configure firewall\nset enabled=true\nexit\nexit" | openpanel-cli > /dev/null
         fi
 	;;

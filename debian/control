@@ -11,7 +11,7 @@ Architecture: all
 Depends: openapp-backup, openpanel-api-sh, openpanel-cli, openpanel-core, openpanel-mod-iptables, openpanel-mod-keepalived, openpanel-mod-networking, openpanel-mod-pptpd, openpanel-openapp-gui, openpanel-openapp-mod-backup, openpanel-openapp-nap-artwork, openpanel-openapp-mod-smtp, openpanel-openapp-mod-user
 Description: This will turn your machine in a perfect High Available Loadbalancer and Firewall
 
-Package: openpanel-openapp-mysql-artwork
+Package: openpanel-openapp-nap-artwork
 Architecture: all
 Description: Artwork for OpenApp NAP
  Artwork for OpenApp NAP
